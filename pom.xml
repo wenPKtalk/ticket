@@ -6,6 +6,7 @@
 
     <groupId>com.wensir</groupId>
     <artifactId>ticket</artifactId>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <properties>
         <java.version>1.8</java.version>
