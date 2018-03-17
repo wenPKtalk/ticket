@@ -1,6 +1,5 @@
 package com.mine.code;
 
-import com.mine.code.Application;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
 
