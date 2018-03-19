@@ -1,6 +1,7 @@
 package com.mine.code.login.service;
 
 import com.mine.code.core.Service;
+import com.mine.code.login.view.AccountVo;
 import com.mine.code.user.model.User;
 
 
@@ -9,4 +10,5 @@ import com.mine.code.user.model.User;
  */
 public interface LoginService extends Service<User> {
 
+    boolean isExist(AccountVo accountInfo);
 }
