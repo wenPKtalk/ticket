@@ -10,10 +10,22 @@ public class StringUtil {
      * @return
      */
     public static boolean isEmpty(String str){
-        if (null == str||"".equals(str)){
+        if (null == str||"".equals(str.trim())){
             return true;
         }
         return false;
+    }
+
+    /**
+     * 校验字符串是否不为空
+     * @param str
+     * @return
+     */
+    public static boolean isNotEmpty(String str){
+        if (null == str||"".equals(str.trim())){
+            return false;
+        }
+        return true;
     }
 
 }
